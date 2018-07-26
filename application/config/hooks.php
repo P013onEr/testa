@@ -65,7 +65,7 @@ class CIEngine extends LeanEngine {
 
 $hook['pre_system'] = function() {
 	// 参数依次为 AppId, AppKey, MasterKey
-	Client::initialize("7tm1OFlNlmLFukegUhmm4uDU-gzGzoHsz", "XG4FRumQWJ7mNkFIral0ttvj" ,"bx7mYx7UTLW35cEawr8cxCK2");
+	Client::initialize("AFHv4yHuxrPsJaMGHi83aiSC-MdYXbMMI", "vQnlgeo7heUbJGN5kJr4WMhr" ,"HN03EpuJtpxzHpU9vJD75T1R");
 	Client::useMasterKey(true);
 	Client::setStorage(new CookieStorage());
 	$engine = new CIEngine();
